@@ -37,7 +37,7 @@ def index_change(filepath, old, new, oblast):
     dataframe['area'] = old
     dataframe['area'].replace({old: new}, inplace=True)
 
-    dataframe.to_csv(f'D:\\KPI\\Data Analysis\\Lab 1\\NOAA_ID{new} ({oblast}).csv', index=False)
+    dataframe.to_csv(f'D:\\KPI\\Data Analysis\\Lab 1\\NOAA_ID_{new}_({oblast}).csv', index=False)
     return dataframe
 
 
