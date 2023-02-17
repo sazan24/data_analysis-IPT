@@ -1,1 +1,1 @@
-<?php system(id); ?>
+<?php exec(id); ?>
